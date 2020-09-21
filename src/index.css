@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background: url('../src/images/project.jpg');
+  min-height: 100vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Fira Sans', sans-serif;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  
+}
+
+h1,h2,h3,h4,h5,h6,label,span {
+  font-weight: 500;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+body, html, .App, #root, .div-login {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: #d9defa;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+
+}
+
+.div-login {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  
+}
+
+.div-login-parent {
+  width: 450px;
+  margin: auto;
+  background: white;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  padding: 40px 55px 45px 55px;
+  border-radius: 15px;
+ 
+}
+
+.div-login /*.form-control:focus*/ {
+  border-color: #167bff;
+  box-shadow: none;
+}
+
+.div-login /*h3*/ {
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
+
+.forgot-password,
+.forgot-password a {
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+}
+
+.forgot-password a {
+  color: blue;
+  font-size: large;
+}
+.icon-pass{
+  position: absolute;
+  margin-top: -35px;
+
+  transform: translate(299px);
+  width: 30px;
+  height: 30px;
+  background: url('../src/images/icon-pass.jpg');
+  background-size: cover;
+  cursor: pointer;   
+}
+.icon-email{
+  position: absolute;
+  margin-top: -35px;
+  transform: translate(299px);
+  width: 30px;
+  height: 30px;
+  background: url('../src/images/icon-email.png');
+  background-size: cover;
+  
+}
+.form-sign{
+  width: 450px;
+  height: 68px;
+  margin: auto;
+  background-color: rgb(136, 203, 231);
+  text-align: center;
+  color: honeydew;
+  padding: 16px;
+  margin-top: -40px;
+  margin-left: -55px;
+  margin-bottom: 20px;
+  border-radius: 7px;           
+
+}
